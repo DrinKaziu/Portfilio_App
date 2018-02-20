@@ -5,8 +5,13 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", function(req, res) {
-    res.render("index.ejs");
+    res.render("index");
 });
+
+app.get("/projects", function(req, res) {
+    res.render("projects");
+});
+
 
 
 app.listen(process.env.PORT, process.env.IP, function() {
