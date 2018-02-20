@@ -26,9 +26,6 @@ a:hover {
     opacity: 1;
 }
 
-a.btn {
-    
-}
 
 section {
     display: flex;
@@ -83,6 +80,7 @@ header {
     padding: 35px 100px 0;
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
+    z-index: 1;
 }
 
 @keyframes fadein {
@@ -121,7 +119,7 @@ header nav li {
     position: relative;
     justify-content: center;
     min-height: 100vh;
-    color: #555;
+    color: #5989c6;
 }
 
 .hero .background-image {
@@ -139,6 +137,10 @@ header nav li {
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+#projects-background {
+    height: 550px;
 }
 
 .hero h1 {
