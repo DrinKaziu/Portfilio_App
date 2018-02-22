@@ -153,21 +153,21 @@ header nav li {
     margin-bottom: 40px;
 }
 
-.hero a.btn {
-    width: 150px;
-    height: 50px;
-    border: 1px solid #fff;
-    color: #5989c6;
-    padding: 15px 36px;
-    border-radius: 4px;
-    opacity: 1;
-    transition: 0.3s background;
-}
+/*.hero a.btn {*/
+/*    width: 150px;*/
+/*    height: 50px;*/
+/*    border: 1px solid #fff;*/
+/*    color: #5989c6;*/
+/*    padding: 15px 36px;*/
+/*    border-radius: 4px;*/
+/*    opacity: 1;*/
+/*    transition: 0.3s background;*/
+/*}*/
 
-.hero a.btn:hover {
-    background: #5989c6;
-    color: #fff;
-}
+/*.hero a.btn:hover {*/
+/*    background: #5989c6;*/
+/*    color: #fff;*/
+/*}*/
 
 #arrow-down-btn {
     color: #5989c6;
@@ -243,6 +243,11 @@ header nav li {
     letter-spacing: 20px;
     color: #ff9659;
     opacity: 0.5;
+    transition: 0.3s;
+}
+
+.tech-icons:hover {
+    opacity: 1;
 }
 
 .skills .btn {
