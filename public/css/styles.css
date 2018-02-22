@@ -169,12 +169,32 @@ header nav li {
     color: #fff;
 }
 
+#arrow-down-btn {
+    color: #5989c6;
+    font: normal 30px "Ubuntu", sans-serif;
+    padding-bottom: 15px;
+}
+
+.content-area {
+    text-align: center;
+    margin-bottom: -150px;
+    opacity: 0;
+    animation: 1s downslide 1s forwards;
+}
+
+@keyframes downslide {
+    100% {
+        margin-bottom: -250px;
+        opacity: 1;
+    }
+}
 
 .hero-content-area {
     opacity: 0;
     margin-top: 100px;
     animation: 1s slidefade 1s forwards;
 }
+
 
 @keyframes slidefade {
     100% {
@@ -216,15 +236,16 @@ header nav li {
     align-items: start;
 }
 
-/*Projects Section*/
+/*Skills Section*/
 
 .tech-icons {
     margin-bottom: 50px;
     letter-spacing: 20px;
     color: #ff9659;
+    opacity: 0.5;
 }
 
-.projects .btn {
+.skills .btn {
     border: 1px solid #555;
     background: #5989c6;
     color: #fff;
@@ -234,7 +255,7 @@ header nav li {
     transition: 0.3s background;
 }
 
-.projects .btn:hover {
+.skills .btn:hover {
     background: transparent;
     color: #5989c6;
 }
