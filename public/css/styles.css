@@ -20,6 +20,7 @@ a {
     text-decoration: none;
     opacity: 0.75;
     color: #555;
+    transition: 0.3s;
 }
 
 a:hover {
@@ -140,9 +141,6 @@ header nav li {
     -ms-filter: "FlipH";
 }
 
-#projects-background {
-    height: 550px;
-}
 
 .hero h1 {
     font: 60px "Roboto Mono", monospace;
@@ -155,9 +153,8 @@ header nav li {
 }
 
 #arrow-down-btn {
-    color: #5989c6;
-    font: normal 30px "Ubuntu", sans-serif;
-    padding-bottom: 15px;
+    color: #2162b2;
+    font: normal 40px "Ubuntu", sans-serif;
 }
 
 .content-area {
@@ -307,3 +304,30 @@ footer p {
     }
 }
 
+/*Projects Section*/
+
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font: bold 32px "Ubuntu", sans-serif;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
