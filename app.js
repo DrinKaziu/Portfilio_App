@@ -14,6 +14,6 @@ app.get("/projects", function(req, res) {
 
 
 
-app.listen(process.env.PORT, process.env.IP, function() {
-   console.log("Server is Listening!!!"); 
+app.listen(3000, function() {
+   console.log("Server is Listening!!!");
 });
